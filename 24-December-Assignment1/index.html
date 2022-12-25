@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Namaste React</title>
+<!-- <link href="index.css" rel="stylesheet"> -->
+</head>
+
+<body>
+    <!--Plain html-->
+    <h1>Hello World with plain html</h1>
+    <div id="root">
+
+    </div>
+
+    <!--React CDN links-->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <!--Plain React-->
+    <script src="app.js">
+        // const element = React.createElement('h3', {}, 'Hello World with React');
+        // const root = ReactDOM.createRoot(document.getElementById('root'));
+        // root.render(element);
+    </script>
+
+
+
+    <!--Plain JS-->
+    <!-- <script>
+        const rootElement = document.getElementById('root');
+        const element = document.createElement('h2');
+        element.innerHTML = 'Hello World from JavaScript';
+        rootElement.appendChild(element);
+        </script> -->
+
+
+    <!--Tried combining JS and react -->
+    <!-- <script>
+        const rootElement = document.getElementById('root');
+        const element1 = document.createElement('h2');
+        element1.innerHTML = 'Hello World from JavaScript';
+        rootElement.appendChild(element1);
+        setTimeout(() => {
+            const element = React.createElement('h3', {}, 'Hello World with React');
+            const root = ReactDOM.createRoot(document.getElementById('root'));
+            root.render(element);
+        }, 1000);
+    </script> -->
+</body>
+
+</html>

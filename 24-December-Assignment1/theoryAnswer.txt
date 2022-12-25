@@ -1,0 +1,58 @@
+1. What is Emmet?
+Answer - “Emmet is a plug in for many popular text editors which greatly improves HTML & CSS workflow:”
+        And Emmet does fulfill what they promise, you can use short expressions to generate HTML markup, CSS.  
+Refernce Link -https://medium.com/@kartik2406/web-development-with-vs-code-part-1-emmet-6af80f0f630c#:~:text=%E2%80%9CEmmet%20is%20a%20plug%20in,to%20generate%20HTML%20markup%2C%20CSS.
+
+2. Difference between a Library and Framework?
+Answer -a. The goal of frameworks and libraries is the same: to expand the range of out-of-the-box functions available to developers, 
+            optimising their workload and reducing room for error and inefficient code.  Frameworks and libraries are blocks of code developed by 
+            third parties that help solve common problems in a particular programming language.
+        b. However, there are technical differences between them. One core difference between a framework and a library is the use of queries. 
+            When using a library, the programmer decides when and where to call it. 
+        c. When using a framework, the framework dictates that. It provides the basic framework and tells the programmer what is needed. 
+            Accordingly, the necessary code is inserted by the developer and supplements the framework according to the desired function. 
+            In the end, however, it is the framework that calls up the code when it needs it and is also responsible for the running of the programme.   
+Refernce Link -https://kruschecompany.com/framework-vs-library/#:~:text=The%20framework%20provides%20the%20flow,the%20code%20from%20the%20library.
+
+3. What is CDN? Why do we use it?
+Answer - 1. A content delivery network (CDN) is a globally distributed network of caching (edge) servers that are deployed to efficiently deliver
+        content to users worldwide.
+        2. By having servers that cache content close to the location(s) of end users, CDNs minimize latency, speeding up load times for websites, 
+        applications, and downloads. This accelerated delivery also brings specific benefits for businesses: a better user experience, boosted 
+        customer loyalty and brand trust, and improved SEO for websites.
+        3. Moreover, a properly configured CDN mitigates DDoS attacks—by distributing the load across servers worldwide, this disperses a spike 
+        in fake traffic designed to flood a website with requests.
+        ## Benefits of using CDN -
+        a. Website or application perfomance
+        b. website or application availability
+Refernce Link - https://gcore.com/materials/what-is-a-cdn/?utm_source=google&utm_medium=cpc&utm_content=network|g|position||ad_id|641684794949|ad_name||group_name||match_type|p|placement||keyword|what%20does%20cdn%20mean|device_type|c|device||placement_category|&utm_term=what%20does%20cdn%20mean&utm_campaign=google_cpc_cdn_blog_apac_search_desktop&gclid=EAIaIQobChMI7L6g7_mT_AIVN5hmAh0S7wVjEAAYASAAEgLTGvD_BwE
+
+4. Why is React know as React ?
+Answer - Since React is used as View in the MVC ,that means when user clicks and changes the application data. The view should "React" or change the application
+        events for those users.
+
+5. What is crossorigin in script tag ?
+Answer - Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than
+         its own from which a browser should permit loading resources.
+
+        ## crossorigin in script tag -
+        The crossorigin attribute sets the mode of the request to an HTTP CORS Request.
+        Web pages often make requests to load resources on other servers. Here is where CORS comes in.
+        A cross-origin request is a request for a resource (e.g. style sheets, iframes, images, fonts, or scripts) from another domain.
+
+6. Difference between React and ReactDOM 
+Answer - In order to work with React in the browsers, we need to include 2 libraries: React and ReactDOM. 
+        React library is responsible for creating views and ReactDOM library is responsible to actually render UI in the browser.   
+
+7. What is difference between react.development.js and react.production.js files via CDN?
+Answer - 1. react.development.js is for development purpuse only. It is not that optimized. It will be good for learning and for project developemts.
+            <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+            <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+        2. react.production.js is for the production purpuse. It is optimized and minified. I will be faster when compared to development one.
+            <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+            <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+
+8. What is async and defer?
+Answer - Async allows your script to run as soon as it’s loaded, without blocking other elements on the page.
+         Defer means your script will only execute after the page has finished loading.             
